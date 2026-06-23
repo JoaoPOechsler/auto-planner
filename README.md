@@ -11,8 +11,8 @@ RabbitMQ
 
 ## Pré-requisitos
 
-- [Node.js](https://nodejs.org) v18 ou superior
-- [Docker Desktop](https://www.docker.com/products/docker-desktop)
+- [Node.js] v18 ou superior
+- [Docker Desktop]
 
 ---
 
@@ -68,16 +68,14 @@ cd frontend
 npm run dev
 ```
 
-O navegador abre automaticamente em `http://localhost:5173`
-
 ---
 
 ## Acessos
 
 | Serviço             | URL                    | Credenciais   |
 |---------------------|------------------------|---------------|
-| Frontend            | http://localhost:5173  | —             |
-| Backend (API)       | http://localhost:3000  | —             |
+| Frontend            | http://localhost:5173  |               |
+| Backend (API)       | http://localhost:3000  |               |
 | RabbitMQ Management | http://localhost:15672 | guest / guest |
 
 ---
